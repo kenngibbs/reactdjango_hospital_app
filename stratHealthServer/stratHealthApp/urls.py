@@ -16,6 +16,9 @@ router.register('procedures', controller.ProceduresViewSet)
 urlpatterns = [
     path('', include(router.urls)),
 
+    path('new_contact_add/', views.new_contact_add, name='new_contact_add'),
+
+
     path('csrf/', csrf_views.csrf),
     path('ping/', csrf_views.ping),
 

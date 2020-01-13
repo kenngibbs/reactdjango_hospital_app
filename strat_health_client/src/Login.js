@@ -17,10 +17,10 @@ function Login() {
                 {/* If there is an error, include this line */}
                 <h3 id="index_error">No error here yet</h3>
 
-                <label for="django_username">Enter your username</label>
+                <label htmlFor="django_username">Enter your username</label>
                 <input type="text" id="django_username" name="django_username" className="form_input"/>
 
-                <label for="django_password">Enter your password</label>
+                <label htmlFor="django_password">Enter your password</label>
                 <input type="password" id="django_password" name="django_password" className="form_input"/>
 
                 <button className="form_input" id="intro_form_button">Submit</button>
