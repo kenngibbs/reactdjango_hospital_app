@@ -17,7 +17,7 @@ urlpatterns = [
     path('', include(router.urls)),
 
     path('new_contact_add/', views.new_contact_add, name='new_contact_add'),
-
+    path('login_auth/', views.login_auth, name='login_auth'),
 
     path('csrf/', csrf_views.csrf),
     path('ping/', csrf_views.ping),

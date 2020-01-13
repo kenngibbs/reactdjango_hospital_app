@@ -7,7 +7,7 @@ function Home() {
         <div id="index_container">
         {/* The 1st grid to style the entire page is above */}
 
-            <div class="header" id="logo_header">
+            <div className="header" id="logo_header">
                 <h2 >Strategic Health</h2>
             </div>
 
@@ -15,7 +15,7 @@ function Home() {
             <h3 id="home_form_label">Welcome {{ contact_name }}</h3>
         </div> */}
 
-            <div class="header" id="home_top_right">
+            <div className="header" id="home_top_right">
                 <h4>Logged in as Contact_Name</h4><a href="{% url 'log_user_out' %}">Log Out</a>
             </div>
 
@@ -27,8 +27,8 @@ function Home() {
 
                         {/* 3rd grid to style each hospital */}
                         <div id="hospital_container">
-                            <h2 id="hospital_name" class="center_text"> Hospital Name</h2>
-                            <h3 id="hospital_address" class="center_text"> Hospital Address</h3>
+                            <h2 id="hospital_name" className="center_text"> Hospital Name</h2>
+                            <h3 id="hospital_address" className="center_text"> Hospital Address</h3>
                             <div id="hospital_staff">
                                 <h4>Staff</h4>
                                 

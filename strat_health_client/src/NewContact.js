@@ -17,7 +17,6 @@ async function getCsrfToken() {
         const data = await response.json();
         _csrfToken = data.csrfToken;
     }
-    console.log(_csrfToken);
     
     return _csrfToken;
 }
@@ -127,7 +126,7 @@ function NewContact() {
 
                 <h4>OR <Link to="/">Go Back Home</Link></h4>
             </div>
-            
+
             <div id="index_footer">
                 <p>Created By <a href="https://www.linkedin.com/in/kenngibbs/" target="_blank" rel="noopener noreferrer">Kenn Gibbs</a></p>
             </div>
